@@ -112,6 +112,21 @@ else Console.WriteLine("Więcej spółgłosek.");
 //i lecąc z jednakową prędkością przybywają w tym samym czasie. 
 //Napisz program, który obliczy jest dłuższa odległość pozioma wodotrysku jednej z wieżyc?
 
+int w1 = 30;
+int w2 = 40;
+int odl = 50;
+
+for (int i = 1; i <= odl; i++)
+{
+    if (w1 * w1 + i * i == w2 * w2 + (odl - i) * (odl - i))
+    {
+        if (i > odl / 2)
+            Console.WriteLine(i);
+        else
+            Console.WriteLine(odl - i);
+    }
+}
+
 //8. Brajanek z Dżesiką grają w siedem. Gra polega na tym, że jeden z graczy podaje granice przedziału <a, b> 
 //a drugi z nich musi szybko odpowiedzieć, ile w tym przedziale jest liczb,
 //które są podzielne przez siedem, albo suma ich cyfr jest podzielna przez siedem (lub jedno i drugie). 
