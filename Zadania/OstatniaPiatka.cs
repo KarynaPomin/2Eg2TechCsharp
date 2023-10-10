@@ -99,43 +99,51 @@ Console.WriteLine();
 //2. Napisz algorytm, który sprawdzi czy gdzieś w macierzy 10x10 losowych liczb dwucyfrowych
 //doszło do sytuacji, że obok siebie są dwie liczby pierwsze.
 
-//NIE DOKOŃCZONE!
-//bool CzyPierwsza(int a)
-//{
-//	bool pierwsza = true;
-//	for (int i = 2; i < a; i++)
-//	{
-//		if (a % i == 0)
-//		{
-//			pierwsza = false;
-//			break;
-//		}
-//	}
-//	if (pierwsza == true)
-//		return true;
-//	else return false;	
-//}
+bool CzyLiczbaPierwsza(int liczba)
+{
+    bool CzyPierwsza = true;
+    for (int i = 2; i < 0.5 * liczba; i++)
+    {
+        if (liczba % i == 0)
+            CzyPierwsza = false;
+    }
 
-//int[,] M = new int[10, 10];
-//List<int> ListaPierwszych = new List<int>();
-//Random rand = new Random();
+    return CzyPierwsza;
+}
 
-//for (int i = 1; i < 11; i++)
-//{
-//	for (int j = 1; j < 11; j++)
-//	{
-//		M[i, j] = rand.Next(10, 100);
-//        if (CzyPierwsza(M[i, j]) == true && ((CzyPierwsza(M[i - 1, j]) == true && i - 1 > 0) || (CzyPierwsza(M[i + 1, j]) == true && i + 1 < 11)))
-//			ListaPierwszych.Add(M[i, j]);
-//		Console.Write(M[i, j] + " ");
-//	}
-//	Console.WriteLine();
-//}
-//Console.WriteLine();
+int[,] P = new int[10, 10];
+List<int> SimilarNumber = new List<int>();
+Random rand = new Random();
 
-//Console.WriteLine($"W macierzy jest {ListaPierwszych.Count}:");
-//foreach (var p in ListaPierwszych)
-//    Console.WriteLine(p);
+for (int i = 0; i < P.GetLength(0); i++)
+{
+    for (int j = 0; j < P.GetLength(1); j++)
+    {
+        P[i, j] = rand.Next(10, 100);
+        Console.Write(P[i, j] + " ");
+    }
+    Console.WriteLine();
+}
+Console.WriteLine();
+
+for (int i = 1; i < P.GetLength(0) - 1; i++)
+{
+    for (int j = 1; j < P.GetLength(1) - 1; j++)
+    {
+        if ((P[i, j] == P[i - 1, j] || P[i, j] == P[i, j - 1] || P[i, j] == P[i + 1, j] || P[i, j] == P[i, j + 1]) && SimilarNumber.Contains(P[i, j]) == false)
+            if (CzyLiczbaPierwsza(P[i, j]) == true)
+                SimilarNumber.Add(P[i, j]);
+    }
+}
+
+if (SimilarNumber.Count == 0)
+    Console.WriteLine("Nie ma w macierzy powtarzających się liczb pierwszych.");
+else
+{
+    Console.Write($"Powtarzają się te {SimilarNumber.Count} liczby pierwsze: ");
+    foreach (var item in SimilarNumber)
+        Console.Write(item + " ");
+}
 
 //3. Napisz program, który sprawdzi, czy dwa słowa wpisane przez usera są anagramami
 
