@@ -2,23 +2,53 @@
 //Niech user podający wymiary macierzy zadba o odpowiednie wymiary,
 //tak aby mnożenie było możliwe. Macierze wypełnij losowymi liczbami.
 
-// !!!np. 5x4 i 4X1
+Console.Write("Podaj 4 liczby po spacji: ");
+string liczby = Console.ReadLine();
+string[] L = liczby.Split(" ");
+bool flaga = true;
 
-int a = 4;
-int b = 5;
-int c = 2;
-int d = 4;
+int a = Convert.ToInt32(L[0]);
+int b = Convert.ToInt32(L[1]);
+int c = Convert.ToInt32(L[2]);
+int d = Convert.ToInt32(L[3]);
 
-int[,] P = new int[ a, b];
-int[,] D = new int[ c, d];
+if (b != c)
+{
+    Console.WriteLine("Podano niepopawne dane. Proszę aby druga i trzecia liczba byli sobie równe!");
+    flaga = false;
+}
+
+while (flaga == false)
+{
+    Console.Write("Podaj ponownie 4 liczby po spacji: ");
+    liczby = Console.ReadLine();
+    L = liczby.Split(" ");
+
+    a = Convert.ToInt32(L[0]);
+    b = Convert.ToInt32(L[1]);
+    c = Convert.ToInt32(L[2]);
+    d = Convert.ToInt32(L[3]);
+
+    if (b != c)
+    {
+        Console.WriteLine("Podano niepopawne dane. Proszę aby druga i trzecia liczba byli sobie równe!");
+        flaga = false;
+    }
+    else
+        flaga = true;
+}
+
+int[,] P = new int[a, b];
+int[,] D = new int[c, d];
+int[,] MACIERZ = new int[a, d];
 Random r = new Random();
 
 // Pierwsza macierz
 for (int i = 0; i < a; i++)
 {
-	for (int j = 0; j < b; j++)
-	{
-		P[i, j] = r.Next(1, 10);
+    for (int j = 0; j < b; j++)
+    {
+        P[i, j] = r.Next(1, 10);
         Console.Write(P[i, j] + " ");
     }
     Console.WriteLine();
@@ -37,12 +67,33 @@ for (int i = 0; i < c; i++)
 }
 Console.WriteLine();
 
-for (int i = 0; i < ; i++)
-{
+// Mnożenie macierzy
 
+int wynik = 0;
+
+for (int i = 0; i < a; i++)
+{
+    for (int k = 0; k < d; k++)
+    {
+        for (int j = 0; j < b; j++)
+        {                   
+            wynik += P[i, j] * D[j, k];
+        }
+        MACIERZ[i, k] = wynik;
+        wynik = 0;
+    }
 }
 
-
+// Wymnożona macierz
+for (int i = 0; i < MACIERZ.GetLength(0); i++)
+{
+    for (int j = 0; j < MACIERZ.GetLength(1); j++)
+    {
+        Console.Write(MACIERZ[i, j] + "\t");
+    }
+    Console.WriteLine();
+}
+Console.WriteLine();
 
 
 //2. Napisz algorytm, który sprawdzi czy gdzieś w macierzy 10x10 losowych liczb dwucyfrowych
