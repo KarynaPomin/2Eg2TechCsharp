@@ -147,6 +147,40 @@ else
 
 //3. Napisz program, który sprawdzi, czy dwa słowa wpisane przez usera są anagramami
 
+Console.Write("Podaj pierwszy napis: ");
+string napis1 = Console.ReadLine();
+Console.Write("Podaj drugi napis: ");
+string napis2 = Console.ReadLine();
+
+List<int> Pierwszy_napis = new List<int>();
+List<int> Drugi_napis = new List<int>();
+
+foreach (var pierwsza in napis1)
+    Pierwszy_napis.Add((int)pierwsza);
+foreach (var druga in napis2)
+    Drugi_napis.Add((int)druga);
+
+Pierwszy_napis.Sort();
+Drugi_napis.Sort();
+
+bool flaga = false;
+if (Pierwszy_napis.Count == Drugi_napis.Count)
+{
+    for (int i = 0; i < Pierwszy_napis.Count; i++)
+    {
+        if (Pierwszy_napis[i] != Drugi_napis[i])
+        {
+            flaga = false;
+            break;
+        }
+        else flaga = true;
+    }
+}
+if (flaga == true)
+    Console.WriteLine("Zgadza się. Dwa podanych nopisy są anagramami.");
+else
+    Console.WriteLine("Podane napisy nie są anagramami.");
+
 //4. Napisz program, który znajdzie w podanej n-elementowej tablicy najdłuższy spójny podciąg niemalejący
 //oraz obliczy jego długość i sumę jego elementów
 
