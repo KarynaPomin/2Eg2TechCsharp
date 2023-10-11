@@ -105,7 +105,10 @@ bool CzyLiczbaPierwsza(int liczba)
     for (int i = 2; i < 0.5 * liczba; i++)
     {
         if (liczba % i == 0)
+        {          
             CzyPierwsza = false;
+            break;
+        }
     }
 
     return CzyPierwsza;
