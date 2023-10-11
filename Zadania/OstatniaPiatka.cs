@@ -95,7 +95,7 @@ for (int i = 0; i < MACIERZ.GetLength(0); i++)
 }
 Console.WriteLine();
 
-
+// POPRAWIĆ ZADANIE!!!
 //2. Napisz algorytm, który sprawdzi czy gdzieś w macierzy 10x10 losowych liczb dwucyfrowych
 //doszło do sytuacji, że obok siebie są dwie liczby pierwsze.
 
