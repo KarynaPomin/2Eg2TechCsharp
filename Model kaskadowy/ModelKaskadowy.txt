@@ -1,0 +1,51 @@
+Model kaskadowy - waterfall
+
+Polega on na wykonywaniu podstawowych czynności jako odrębnych faz projektowych, kolejno po sobie. Każda czynność to schodek (kaskady):
+
+1. Planowanie systemu (w tym specyfikacja wymagań).
+2. Analiza systemu (w tym analiza wymagań i studium wykonalności).
+3. Projekt systemu (poszczególnych struktur itp.).
+4. Implementacja (wytworzenie kodu).
+5. Testowanie (poszczególnych elementów systemu oraz elementów połączonych w całość).
+6. Wdrożenie i pielęgnacja powstałego systemu.
+
+Jeśli któraś z faz zwróci niesatysfakcjonujący produkt cofamy się wykonując kolejne iteracje aż do momentu kiedy otrzymamy satysfakcjonujący produkt na końcu schodków.
+
+Istotne cechy modelu:
+- Nieelastyczny podział na kolejne rozłączne iteracyjne fazy
+- Przejście do następnej fazy możliwe po zakończeniu poprzedniej
+- Wysoki koszt iteracji przez powtarzanie wielu czynności
+
+Zastosowanie:
+Model może być używany wyłącznie w przypadku gdy wymagania są zrozumiałe i przejrzyste, ponieważ każda iteracja jest czasochłonna i wymaga dużych wydatków na ulepszanie. Jednocześnie jest on stosowany w normalnej praktyce inżynierskiej.
+
+Zalety:
+W ostatnich latach waterfall oddał swoją przewodnią pozycję bardziej elastycznym metodologiom. Jednak model kaskadowy jest nadal istotny dla dużych projektów i organizacji i ma kilka zalet:
+
+- Odporność na zmiany kadrowe - Członkowie zespołu mogą przychodzić i odchodzić przez cały cykl życia projektu, ale dzięki szczegółowej dokumentacji ma to niewielki lub żaden wpływ na czas jego realizacji.
+- Dyscyplina - Zespół jest maksymalnie skupiony i zdyscyplinowany, aby pozostać w ramach ustalonego planu. W razie potrzeby do modelu ogólnego dodaje się organ zarządzający odpowiedzialny za podejmowanie decyzji.
+- Elastyczność na wczesnym etapie - Zmian w pierwszych trzech fazach można dokonać natychmiast i przy minimalnym wysiłku. Tak więc klient i wykonawca mają czas, aby radykalnie zmienić koncepcję działania produktu.
+- Orientacja na czas i finanse - Ze względu na fakt, że każdy etap w pełni wyznacza zarys przyszłego produktu, wszyscy członkowie zespołu rozumieją swoją rolę, granice pracy i terminy realizacji. Pozwala to na realną i dokładną ocenę kosztów i czasu realizacji projektu.
+
+
+Wady modelu kaskadowego
+Model waterfall był aktualny w latach 70. Jednak obecnie, pół wieku później, coraz więcej firm odchodzi od niego na rzecz młodszych i bardziej nowoczesnych rozwiązań. Główne wady podejścia kaskadowego, które zniechęcają wykonawców, to:
+
+- Ogromna ilość dokumentów, wymagających ciągłej aktualizacji. Z tego powodu praca nad projektem często zamienia się w prawdziwą biurokrację — dopóki nie uzgodnisz wszystkiego ze wszystkimi, nie zarejestrujesz wszystkiego w dokumentach, nic nie ruszy z miejsca.
+- Wszystkie wymagania muszą być od razu ustalone. Jest to trudne, ponieważ sam klient często nie wie, czego chce. W takich sytuacjach bardziej przydatne są elastyczne metodologie.
+- Ignorowanie zamawiającego. Im niższy etap w „kaskadzie”, tym mniejsza jest w nim rola klienta. Wprowadzenie jakichkolwiek zmian w funkcjonalności produktu uruchamia cały łańcuch etapów od nowa.
+- Późne testy. To tutaj najczęściej identyfikuje się błędy popełnione na każdym z etapów. Bardziej elastyczne metodologie wykorzystują testowanie jako podstawową operację zachodzącą w sposób ciągły. Waterfall pozwala, by niekompetentni pracownicy zajmowali się projektem – nikt tego nie zauważy, dopóki nie będzie za późno.
+
+Okazuje się, że metodologia kaskadowa jest doskonałym rozwiązaniem pod względem czasu i raportowania, ale jest bardzo słaba pod względem jakości. Dlatego dzisiaj zaleca się stosowanie jej tylko w trzech przypadkach:
+
+1. Ukierunkowania na klienta wymagającego przejrzystości prac i wykonania w wyznaczonych terminach.
+2. Obecność kadry kierowniczej o odpowiednich kwalifikacjach.
+3. Przy realizacji projektu, który nie ma konkurencji na rynku.
+
+Chociaż te 3 punkty są coraz mniej powszechne w praktyce, model kaskadowy będzie nadal popularny i poszukiwany przez długi czas ze względu na przejrzystą organizację.
+
+Przykład:
+Zaprojektuj kalkulator logująco sprawdzający trzeźwość.
+Operacje arytmetyczne jakie kalkulator będzie wykonywał to: dodawanie, odejmowanie, mnożenie, dzielenie
+Na początku trzeba się będzie zalogować do niego podając login i hasło
+Kalkulator sprawdzać będzie trzeźwość usera przez przydzielenie mu prostego zadania w stylu: 4+5+6. Jeśli user odpowie dobrze kalkulator pozwoli mu na używanie.
