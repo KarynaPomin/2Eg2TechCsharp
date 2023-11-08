@@ -1,0 +1,25 @@
+> images > search > mysql
+
+>> docker --> 
+
+>> docker images --> pokazuje zainstalowane rep.
+
+>> docker pull mysql --> zainstalować mysql
+
+>> docker run --name (nazwa_rep.) -e MYSQL_ROOT_PASSWORD=root -d mysql --> 
+>> docker run --name mysql-kar -e MYSQL_ROOT_PASSWORD=root -d mysql --> 
+
+>>  docker ps --> uruchamia procesy
+
+>> netstst -at -->
+
+>> docker exec -it (nazwa rep.) bash --> wchodzenie do konteneru
+
+>> bash-4.4# root
+>> bash-4.4# next --> wyjście z kontejnera
+
+>> use mysql -->
+>> DIR -->
+>>  LS  -->
+mysqldump --databases mysql -p ......  --> zrzucenia bazy
+
