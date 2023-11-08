@@ -39,6 +39,7 @@
 	-> Dostawca (Provider): Osoba lub zespół odpowiedzialny za dostarczanie usług.
 	-> Lider Kanban (Kanban Lead/Manager): Osoba odpowiedzialna za wdrożenie i utrzymanie metodyki Kanban w organizacji.
 	-> Zespół Kanban (Kanban Team): Grupa osób realizujących zadania i pracujących nad dostarczaniem usług.
+	-> Mistrz Kanbana (Kanban master): Osoba, która zarządza wszystkimi.
 
 7. Metryki
 	Kanban wykorzystuje różne metryki do monitorowania i oceny postępów pracy oraz wydajności procesów. Niekilka przykładów metryk Kanban to:
