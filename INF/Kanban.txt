@@ -1,0 +1,58 @@
+1. Definicja Kanban
+	-> To zwinna metodyka zarządzania przepływem pracy oraz wizualizacji procesów biznesowych. 
+     Służy optymalizowaniu pracy i procesów w celu maksymalizacji wydajności, minimalizacji 
+     marnotrastwa dzięki wizualizacji pracy oraz ciągłemu doskonaleniu procesów w oparciu o raporty i analizy.
+
+2. Geneza Kanban (kan bahn)  
+	-> Pochodzi od złączenia dwóch japońskich słów: “Kan” – znak i “Ban” – tablica.
+
+3. Zasady Kanban - zasady zarządzania zmianą - wypisać i krótko opisać
+	--> Zacznij od tego, co robisz teraz - metoda ta uwypukla kwestie, którymi należy się zająć, oraz pomaga 
+      ocenić i zaplanować zmiany, tak aby ich wdrożenie było jak najmniej uciążliwe.
+	--> Dokonuj ewolucyjnych, stopniowych zmian - Zachęca ona do ciągłych, małych, przyrostowych i ewolucyjnych
+      zmian w bieżącym procesie poprzez wdrażanie form drogą współpracy i wykorzystania informacji zwrotnej.
+	--> Rozwijaj działania przywódcze na wszystkich szczeblach zarządzania - każda wspólna obserwacja sprzyja 
+      myśleniu o ciągłym doskonaleniu, aby osiągnąć optymalne rezultaty na poziomie zespołu/działu/firmy. 
+
+4. Zasady Kanban - zasady dostarczania usług - wypisać i krótko opisać
+	--> Koncentruj się na potrzebach i oczekiwaniach klienta - to powinno być w centrum uwagi każdej organizacji. 
+      To pozwala zwrócić uwagę na jakość świadczonych usług i wartość, jaką one tworzą.
+	--> Zarządzaj pracą, a nie pracownikami - zarządzaj przepływem pracy a ludziom pozwól na samoorganizaję.
+	--> Regulanie analizyj sieć usług - sprzyja udoskonaleniu i rozwoju swoich interesów, aby poprawić rezultaty biznesowe.
+
+5. Kadencje w Kanban (pętle zwrotne - feedback loops)
+	--> Kadencje Kanbanu to koncepcja, która sugeruje, jak zbudować sieć siedmiu pętli zwrotnych oraz jak ją 
+      wdrażać w celu zapewnienia sprawnego przepływu informacji i synchronizacji firmy. 
+	1.) Codzienne spotkanie (Daily Meeting) -> w formacie “przejścia przez tablicę”, których celem jest synchronizacja 
+      zespołu i jego skupienie na przepływie zadań.
+	2.) Uzupełnianie i zobowiązanie (Replenishment and Commitment Meeting) -> to spotkanie, które często nazywane jest odpowiednikiem 
+      scrumowego planowania, pozwalają uzupełnić buforu zadań dla zespołu o te najwartościowsze biznesowo, gotowe do pracy. 
+	3.) Planowanie dostaw (Delivery Planning Meeting) -> to spotkanie dedykowane synchronizacji dostaw produktów i usług klientowi,   
+      określonego kalendarza dostaw. 
+	4.) Przegląd dostaw usług (Service Delivery Review)
+	5.) Inspekcja wyników operacyjnych (Operations Review)
+	6.) Przegląd ryzyk (Risk Review) 
+	7.) Rewizja strategii (Strategy Review) 
+
+6. Role
+	-> Klient (Customer): Osoba lub zespół, który zamawia i korzysta z dostarczanych usług.
+	-> Dostawca (Provider): Osoba lub zespół odpowiedzialny za dostarczanie usług.
+	-> Lider Kanban (Kanban Lead/Manager): Osoba odpowiedzialna za wdrożenie i utrzymanie metodyki Kanban w organizacji.
+	-> Zespół Kanban (Kanban Team): Grupa osób realizujących zadania i pracujących nad dostarczaniem usług.
+
+7. Metryki
+	Kanban wykorzystuje różne metryki do monitorowania i oceny postępów pracy oraz wydajności procesów. Niekilka przykładów metryk Kanban to:
+	-> C7. Metryki (kontynuacja):
+	-> Cycle Time: Czas, jaki zajmuje przejście zadania od momentu rozpoczęcia do zakończenia. Pomaga w określeniu, jak szybko zadania są realizowane.
+	-> Lead Time: Czas, jaki upływa od momentu zgłoszenia zadania przez klienta do momentu jego zakończenia. Obejmuje zarówno czas wykonania zadania,
+     jak i czas oczekiwania na wykonanie.
+	-> Throughput: Liczba zadań, które zostały ukończone w określonym czasie. Mierzy wydajność zespołu.
+	-> Cumulative Flow Diagram: Wykres, który przedstawia ilość zadań w różnych fazach przepływu pracy w czasie. Pomaga w identyfikacji przepływu 
+     pracy i ewentualnych opóźnień.
+
+8. Wizualizacja (tablica i karta)
+	--> Tablica Kanban to znakomite narzędzie wizualne, dające wgląd w status aktualnych zadań i upraszczające komunikację zespołową.
+	--> Wizualizacja pracy na tablicy Kanban zwiększy produktywność i wyeliminuje chaos z twojego miejsca pracy.
+	--> Kanban mapuje pojedyncze zadania na karteczki uporządkowane w kolumnach dużej tablicy. Kolumny te reprezentują strumień wartości – sekwencję 
+      konkretnych czynności, którym poddane muszą być zadania nim można je będzie uznać za ukończone. Przedmioty pracy są więc zapisywane na 
+      karteczkach i umieszczane w odpowiednich kolumnach.
