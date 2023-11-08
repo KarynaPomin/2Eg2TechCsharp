@@ -54,5 +54,5 @@
 	--> Tablica Kanban to znakomite narzędzie wizualne, dające wgląd w status aktualnych zadań i upraszczające komunikację zespołową.
 	--> Wizualizacja pracy na tablicy Kanban zwiększy produktywność i wyeliminuje chaos z twojego miejsca pracy.
 	--> Kanban mapuje pojedyncze zadania na karteczki uporządkowane w kolumnach dużej tablicy. Kolumny te reprezentują strumień wartości – sekwencję 
-      konkretnych czynności, którym poddane muszą być zadania nim można je będzie uznać za ukończone. Przedmioty pracy są więc zapisywane na 
-      karteczkach i umieszczane w odpowiednich kolumnach.
+      	    konkretnych czynności, którym poddane muszą być zadania nim można je będzie uznać za ukończone. Przedmioty pracy są więc zapisywane na 
+      	    karteczkach i umieszczane w odpowiednich kolumnach.
