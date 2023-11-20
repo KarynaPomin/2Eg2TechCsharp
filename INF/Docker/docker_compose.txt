@@ -1,0 +1,4 @@
+>> cd (ścieżka pliku)
+>> docker-compose
+>> docker-compose up
+>> docker ps --> procesy
