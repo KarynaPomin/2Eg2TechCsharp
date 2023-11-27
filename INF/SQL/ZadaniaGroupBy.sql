@@ -1,4 +1,5 @@
 BAZA --> AWBackup
+Otwieranie HEIDI (Ctr O)
 
 # 1. Policz ile jest wszystkich kart
 	SELECT COUNT(*) FROM creditcard;
