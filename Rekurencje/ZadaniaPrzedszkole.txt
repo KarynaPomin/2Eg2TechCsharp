@@ -1,0 +1,78 @@
+// idea rekurencji
+// reku utożsamiaj z pętlą
+// 3 elem pętli: start, stop, step
+
+/*int reku1(int n)
+{
+    if (n == 0) return 1;
+    return reku1(n-1);
+}
+Console.WriteLine(reku1(5));*/
+
+//reku1(5) ...... 
+//reku1(4)   => 6 * 4
+//reku1(3)   => 2 * 3
+//reku1(2)   => 1*2
+//reku1(1)   => 1*1
+//reku1(0)   => 1
+
+
+/*void reku2(int n)
+{
+    if (n == 0) return;
+    Console.WriteLine(n);
+    reku2(n - 1);
+    Console.WriteLine(n);
+}
+
+reku2(5);*/
+
+//reku2(5) .....
+//reku2(4) .....
+//reku2(3) .....
+//reku2(2) .....
+//reku2(1) .....
+//reku2(0) .....
+
+
+// Zad 3. Napisz alg sumujący cyfry iter i reku
+
+
+
+// 4. Napisz alg sumujący liczby dwucyfrowe parzyste iter i reku
+
+
+
+// 5. Oblicz sumę n pierwszych wyrazów ciągów:
+// a) 3, 6, 9, 12, 15, 18, 21 ... <=> 3+6+9+12 = 3(1+2+3+4)
+
+
+// b) 12, 23, 34, 45, 54 ...
+
+
+// c) 2, 6, 18, 54 ...
+
+
+// d) 1, 2, 4, 9, 16 ...
+
+
+// 6. Wypisz n pierwszych wyrazów ciągu:
+// a) 1,5  1  0,5  -0,5  -2  -4,5  -8,5  -15
+
+
+// b) -2  2,5  3  -5  7,5  -4,5  -0,5  8  -12,5
+
+
+// c) 0  1  -1  2  -2  3  -3  4  -4
+
+// 7. Inne ciągi kosmiczne - rakieta USA
+
+// 1  3  4   8  15   27
+
+// 4    5    -3    2   14   22    48   
+
+// 1    1    1    3   5   9   
+
+// 2   3    4     -1    -8    -11   -2  
+
+// 1   4    3    16     5     64     7    256   9   1024    
