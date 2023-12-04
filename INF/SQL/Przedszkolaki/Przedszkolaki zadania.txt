@@ -1,0 +1,16 @@
+1. Wszyscy ch³opcy.
+2. Wszystkie Maje.
+3. Wszyscy przynajmniej 5-letni ch³opcy o nazwiskach na "K" i imionach nie na "K".
+4. Wszystkich trzylatków o nazwisku koñcz¹cym siê na "e".
+5. Suma miejsc w przedszkolach.
+6. Œrednia iloœæ miejsc w przedszkolach.
+7. Jakie przedszkola preferuje Tomasz Dobrzeniecki?
+8. Ile razy na liœcie preferencji znajduje siê Przedszkole nr 4 Gwarny Dworek?
+
+-------
+
+9. Zrób zestawienie 3 pierwszych miesiêcy z najwiêksz¹ iloœci¹ urodzonych dzieci.
+
+10. Które przedszkola nie by³y wybrane w 1, 2 i 3 preferencji (3 zestawienia)
+
+11. Ilu dzieci wykorzysta³o tylko jeden wybór przedszkola, ilu dwa wybory? Czy s¹ dzieci, które chc¹ od razu iœæ do podstawówki?
