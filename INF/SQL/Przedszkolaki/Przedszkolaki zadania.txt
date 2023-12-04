@@ -10,6 +10,7 @@
 -------
 
 9. Zrób zestawienie 3 pierwszych miesięcy z największą ilością urodzonych dzieci.
+    KONSTRUUJ: Mid([DZIECI] ! [PESEL];  4 ;2) - 20 
 
 10. Które przedszkola nie były wybrane w 1, 2 i 3 preferencji (3 zestawienia)
 
