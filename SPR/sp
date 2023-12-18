@@ -1,0 +1,71 @@
+Rozwiąż zadania. Odpowiedzi daj w innym pliku w formie wklejonej / wpisanej kwerendy SQL zaopatrzonej numerem zadania w stylu:
+
+--Z1
+SELECT ......
+
+--Z2
+SELECT .....
+
+Zadania proszę zapisywać do pliku po kolei. Nie ma znaczenia wielkość liter. Wynikiem zapytania musi być zawsze jedna kwerenda. 
+Dopuszczam formę podzapytania jak ktoś to stosuje i dla niego to łatwiej.
+
+Wydział Edukacji powiatu Bajtolandia przeprowadził wśród uczniów szkół badanie na temat bezpieczeństwa w szkole. 
+W ankiecie udział wzięli uczniowie ze 130 wybranych szkół różnego typu. 
+W plikach ankiety.txt, szkoly.txt i gminy.txt znajdują się dane dotyczące ankietowanych szkół w powiecie Bajtolandia 
+oraz wyniki ankiet wypełnionych przez uczniów tych szkół. Pierwszy wiersz każdego z plików jest wierszem nagłówkowym, 
+a dane w wierszach rozdzielone są znakami tabulacji. 
+W kolejnych wierszach pliku ankiety.txt znajdują się wyniki 5600 ankiet: 
+numer ankiety (Nr_ankiety), oceny podane w odpowiedzi na poszczególne pytania (pyt1, pyt2, ..., 
+pyt6), Plec (k — dziewczyna, m — chłopak), identyfikator szkoły (Id_szkoły). 
+Przykład 
+Nr_ankiety pyt1 pyt2 pyt3 pyt4 pyt5 pyt6 Id_szkoly Plec 
+a0001 1 2 2 3 3 4 S001 k 
+a0002 5 3 3 2 2 3 S001 k 
+a0003 5 3 5 5 1 4 S001 m 
+a0004 3 2 2 1 2 3 S001 k
+Treść pytań ankiety: 
+pyt1: Czy w swojej szkole czujesz się bezpiecznie? 
+pyt2: Czy byłeś na terenie szkoły ofiarą niebezpiecznych zachowań, agresji? 
+pyt3: Czy byłeś świadkiem niebezpiecznych sytuacji, agresji w szkole? 
+pyt4: Czy zdarzyło Ci się zrobić komukolwiek jakąś przykrość? 
+pyt5: Czy nauczyciele rozmawiają z uczniami o przemocy? 
+pyt6: Czy w szkole odbywają się zajęcia (spotkania/lekcje/wystawy/inne formy) na temat bezpieczeństwa w szkole? 
+Odpowiedzi na pytania to oceny w skali od 1 do 5, oznaczające odpowiednio: 
+1. nigdy 
+2. bardzo rzadko 
+3. rzadko 
+4. często 
+5. bardzo często 
+
+W pliku szkoly.txt znajduje się 130 wierszy z informacjami o szkołach: identyfikator 
+szkoły (Id_szkoly), Rodzaj_szkoly (SP, G, LO, T, ZS), Kod_gminy.
+Przykład 
+Id_szkoly Rodzaj_szkoly Kod_gminy 
+S001 LO GM19 
+S002 SP GM17 
+S003 LO GM07 
+S004 T GM19
+
+W pliku gminy.txt każdy wiersz zawiera informacje o jednej z 20 gmin w Bajtolandii: 
+Kod_gminy, Nazwa_gminy.
+Przykład 
+Kod_gminy Nazwa_gminy 
+GM01 Piatki Gorne 
+GM02 Piatki Dolne 
+GM03 Sobotka
+
+ZADANIA
+
+1. Podaj liczbę wszystkich ankietowanych dziewcząt i wszystkich ankietowanych chłopców. 
+
+2. Dla każdego rodzaju szkoły podaj średnią ocenę odpowiedzi na każde pytanie (numer pytania nie ma znaczenia). Wyniki podaj w zaokrągleniu do dwóch miejsc po przecinku. 
+
+3. Podaj nazwę gminy z największą liczbą uczniów biorących udział w badaniu oraz liczbę tych uczniów.
+
+4. Wypisz podstawówkę, której nie ma w żadnej z przedstawionych gmin.
+
+5. Wypisz gminę bez szkół.
+
+6. Wypisz gminy bez techników.
+
+7. Utwórz zestawienie zawierające informacje o liczbie dziewcząt i chłopców (osobno) z poszczególnych rodzajów szkół, którzy podali najwyższą ocenę 5 na pytanie 1.
