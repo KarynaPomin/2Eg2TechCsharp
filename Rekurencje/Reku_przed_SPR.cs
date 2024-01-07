@@ -33,15 +33,16 @@ namespace kkk3
             
             // M.
             Console.WriteLine("Rekurencyjnie: ");
-            Console.WriteLine(reku1(slowo));
-            int reku1(string text)
+            string napis = "ka";
+            Console.WriteLine(Reku1(napis));
+
+            int Reku1(string tekst)
             {
-                int suma = 0;
-                int n1 = text.Length - 1;
-                if (n1 < 0) return suma;
+                int n = tekst.Length - 1;
+                if (n < 0)
+                    return 0;
                 else
-                    suma += text[n1];
-                return suma + reku1(text.Remove(text.Length - 1));
+                    return tekst[n] + Reku1(tekst.Remove(n));
             }
             Console.WriteLine();
 
